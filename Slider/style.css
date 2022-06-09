@@ -1,0 +1,61 @@
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-color: black;*/
+    height: 600px;
+}
+.galary {
+    width: 400px;
+    height: 400px;
+    background-image: url('img/IMG_6549.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: 10px solid pink;
+    border-radius: 20px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    border-top: 7px solid gray;
+    border-right: 7px solid gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#right-arrow {
+    transform: rotate(45deg);
+    margin-right: -40px;
+    transition: all 400ms;
+}
+#left-arrow {
+    transform: rotate(-135deg);
+    margin-left: -40px;
+    transition: all 400ms;
+}
+
+#right-arrow:hover {
+    margin-right: -55px;
+    border-color: pink;
+}
+#left-arrow:hover {
+    margin-left: -55px;
+    border-color: pink;
+}
