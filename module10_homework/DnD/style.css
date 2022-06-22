@@ -1,0 +1,24 @@
+body {
+    position: relative;
+    margin: 0px;
+}
+
+.divMain {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.div {
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+/*div:hover {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
